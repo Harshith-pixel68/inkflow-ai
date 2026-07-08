@@ -1,0 +1,6 @@
+{
+  "name": "InkFlow AI",
+  "description": "Infinite whiteboard and study assistant for engineering students with AI integration, handwriting recognition, and engineering symbol libraries.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

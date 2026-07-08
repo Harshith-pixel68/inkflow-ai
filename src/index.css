@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Sophisticated Dark Color Palette */
+  --color-primary: #D0BCFF;
+  --color-primary-dark: #381E72;
+  --color-primary-medium: #4F378B;
+  --color-primary-light: #EADDFF;
+  --color-bg-dark: #0A0A0A;
+  --color-surface-dark: #121212;
+  --color-surface-card: #1C1C1C;
+  --color-border-dark: #333333;
+  --color-text-primary: #E6E1E5;
+  --color-text-subtext: #938F99;
+  --color-text-muted: #CAC4D0;
+  --color-active-purple: #2B2930;
+}
+
+/* Custom subtle scrollbar styling to match the Sophisticated Dark look */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #49454F;
+}
